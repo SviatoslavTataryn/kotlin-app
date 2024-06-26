@@ -1,5 +1,6 @@
 plugins {
     kotlin("jvm") version "1.9.23"
+    application
 }
 
 group = "mate.academy"
@@ -19,3 +20,4 @@ tasks.test {
 kotlin {
     jvmToolchain(17)
 }
+
